@@ -22,3 +22,8 @@ destructivelyAddElementToEndOfArray = function(array, element){
 accessElementInArray = function(array, index){
   return array[index]
 }
+
+destructivelyRemoveElementFromBeginningOfArray = function(array){
+  array.shift
+  return array
+}
